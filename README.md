@@ -208,6 +208,16 @@ streamlit run app.py
 
 
 Aplikasi akan terbuka secara otomatis di browser melalui `http://localhost:8501`.
+Hasil dari **`app.py`** adalah sebagai berikut:
+![app.py](https://github.com/ridwansetiawan14/studentprediction/blob/main/ssstreamlit.png)
+
+___
+🌐 Link Aplikasi Online (Streamlit Cloud)
+Aplikasi juga dapat diakses secara langsung melalui internet pada tautan berikut:
+
+👉 https://dsdicodingfinal-8ummgx4rnk2hjn2jqrvixn.streamlit.app/
+atau
+👉 
 
 ___
 🌐 Link Aplikasi Online (Streamlit Cloud)
