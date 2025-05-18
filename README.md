@@ -215,15 +215,7 @@ ___
 🌐 Link Aplikasi Online (Streamlit Cloud)
 Aplikasi juga dapat diakses secara langsung melalui internet pada tautan berikut:
 
-👉 https://dsdicodingfinal-8ummgx4rnk2hjn2jqrvixn.streamlit.app/
-atau
-👉 
-
-___
-🌐 Link Aplikasi Online (Streamlit Cloud)
-Aplikasi juga dapat diakses secara langsung melalui internet pada tautan berikut:
-
-👉 https://nama-anda.streamlit.app
+👉 : https://studentprediction-vkk6zfmfntsr8eaoel8ved.streamlit.app/
 
 ---
 
