@@ -151,7 +151,7 @@ password: root1234
 Dashboard interaktif dibangun menggunakan **Metabase** sebagai alat bantu visual untuk membantu manajemen kampus dalam memahami faktor-faktor yang memengaruhi status akhir mahasiswa. Visualisasi ini memberikan gambaran menyeluruh mengenai profil akademik dan administratif mahasiswa berdasarkan data historis.
 
 Hasil dari **Business Dashboard** adalah sebagai berikut:
-![Business Dashboard](https://github.com/ridwansetiawan14/dsdicodingfinal/blob/main/abu_akhdan-dashboard.png)
+![Business Dashboard](abu_akhdan-dashboard.png)
 
 ---
 #### **🎯 Tujuan Dashboard**
@@ -228,7 +228,7 @@ streamlit run app.py
 
 Aplikasi akan terbuka secara otomatis di browser melalui `http://localhost:8501`.
 Hasil dari **`app.py`** adalah sebagai berikut:
-![app.py](https://github.com/ridwansetiawan14/studentprediction/blob/main/ssstreamlit.png)
+![app.py](ssstreamlit.png)
 
 ___
 🌐 Link Aplikasi Online (Streamlit Cloud)
