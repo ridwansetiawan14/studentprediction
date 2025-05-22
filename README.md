@@ -1,5 +1,6 @@
 # **Proyek Akhir: 🎓 Prediksi Status Mahasiswa dan Visualisasi Dashboard Akademik**
 
+Project ini diunggah di [github](https://github.com/ridwansetiawan14/studentprediction) 
 ## Business Understanding
 
 **Latar Belakang**  
@@ -158,6 +159,7 @@ Dashboard interaktif dibangun menggunakan **Metabase** sebagai alat bantu visual
 
 Hasil dari **Business Dashboard** adalah sebagai berikut:
 ![Business Dashboard](abu_akhdan-dashboard.png)
+
 
 ---
 #### **🎯 Tujuan Dashboard**
