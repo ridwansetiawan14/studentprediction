@@ -64,14 +64,15 @@ Proyek ini dikembangkan secara end-to-end dan mencakup:
 Tahapan awal proyek ini mencakup penyiapan data, instalasi library yang ada pada `requierement.txt`, hingga menjalankan model prediksi dan dashboard interaktif. Panduan berikut dapat diikuti baik oleh pengguna teknis maupun non-teknis yang ingin mereplikasi atau menguji aplikasi ini.
 
 #### **1. Eksplorasi dan Pemahaman Data Mahasiswa**
+**🔗 Sumber Data**
 
-Dataset yang digunakan adalah data mahasiswa dari [UCI Machine LearningRepository](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success), yang telah disimpan dalam format `data.csv`. Dataset ini berisi informasi administratif dan akademik seperti:
+Dataset yang digunakan dalam proyek ini adalah:
 
-- Nilai masuk dan sebelumnya
-- Jumlah mata kuliah diambil dan lulus
-- Status pembayaran dan beasiswa
-- Jenis kelamin, usia, dan jalur masuk
-- Status akhir mahasiswa: `Dropout`, `Enrolled`, atau `Graduate`
+**Predict Students Dropout and Academic Success**. Dataset ini berasal dari UCI Machine Learning Repository dan berisi informasi akademik, keuangan, serta demografik mahasiswa. Tujuan penggunaannya adalah untuk membangun model klasifikasi status mahasiswa: `Dropout`, `Enrolled`, atau `Graduate`. Dataset ini bersaral dari Portugal.
+- Link dataset resmi: [sumber](https://archive.ics.uci.edu/ml/datasets/697)
+
+Dataset ini memiliki 4424 entri dan 36 fitur, mencakup performa akademik, riwayat pendaftaran, status keuangan, dan data personal mahasiswa.
+
 
 #### **2. Pembersihan dan Transformasi Data**
 
@@ -89,13 +90,31 @@ Model terbaik (Random Forest) disimpan ke dalam file `.pkl` dan di-deploy melalu
 
 ### **▶️ Cara Menjalankan Proyek**
 
-#### **📦 A. Install Library**
+#### **📦 A. Setup Environment**
 
-Buka terminal atau command prompt di direktori proyek, lalu jalankan:
+Untuk menjalankan proyek ini secara lokal, silakan siapkan environment Python terlebih dahulu. Tersedia dua opsi instalasi:
+
+**1)🔸 Menggunakan Anaconda**
 
 ```bash
+conda create --name student-dropout-env python=3.9
+conda activate student-dropout-env
 pip install -r requirements.txt
 ```
+
+**2) 🔹 Menggunakan Pipenv (Shell/Terminal)**
+
+Buka terminal di anaconda dan ketikan
+```bash
+pip install pipenv
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+Pastikan file `requirements.txt` berada pada direktori utama proyek sebelum menjalankan perintah di atas.
+
+
 
 #### **📓 B. Menjalankan Notebook**
 Gunakan Google Colab atau Jupyter Notebook untuk membuka file `notebook.ipynb`, lalu jalankan semua sel secara berurutan dari atas ke bawah untuk melakukan analisis data, modeling, dan evaluasi.
@@ -121,7 +140,7 @@ docker run -p 3000:3000 --name metabase metabase/metabase
 
 ```bash
 username: root@mail.com
-password: root123
+password: root1234
 ```
 
 ---
