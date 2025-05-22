@@ -61,14 +61,18 @@ Proyek ini dikembangkan secara end-to-end dan mencakup:
 
 ## **🧰 Persiapan**
 
-Tahapan awal proyek ini mencakup penyiapan data, instalasi library yang ada pada `requierement.txt`, hingga menjalankan model prediksi dan dashboard interaktif. Panduan berikut dapat diikuti baik oleh pengguna teknis maupun non-teknis yang ingin mereplikasi atau menguji aplikasi ini.
+Tahapan awal proyek ini mencakup penyiapan data, instalasi library yang ada pada `requierement.txt`, hingga menjalankan model prediksi dan dashboard interaktif. 
+
+Berikut merupakan langkah-langkah untuk menggunakan aplikasi/hasil analisis ini.
 
 #### **1. Eksplorasi dan Pemahaman Data Mahasiswa**
 **🔗 Sumber Data**
 
 Dataset yang digunakan dalam proyek ini adalah:
 
-**Predict Students Dropout and Academic Success**. Dataset ini berasal dari UCI Machine Learning Repository dan berisi informasi akademik, keuangan, serta demografik mahasiswa. Tujuan penggunaannya adalah untuk membangun model klasifikasi status mahasiswa: `Dropout`, `Enrolled`, atau `Graduate`. Dataset ini bersaral dari Portugal.
+Judul: Predict Students Dropout and Academic Success
+
+Dataset ini berasal dari UCI Machine Learning Repository dan berisi informasi akademik, keuangan, serta demografik mahasiswa. Tujuan penggunaannya adalah untuk membangun model klasifikasi status mahasiswa: `Dropout`, `Enrolled`, atau `Graduate`. Dataset ini bersaral dari Portugal.
 - Link dataset resmi: [sumber](https://archive.ics.uci.edu/ml/datasets/697)
 
 Dataset ini memiliki 4424 entri dan 36 fitur, mencakup performa akademik, riwayat pendaftaran, status keuangan, dan data personal mahasiswa.
@@ -118,6 +122,8 @@ Pastikan file `requirements.txt` berada pada direktori utama proyek sebelum menj
 
 #### **📓 B. Menjalankan Notebook**
 Gunakan Google Colab atau Jupyter Notebook untuk membuka file `notebook.ipynb`, lalu jalankan semua sel secara berurutan dari atas ke bawah untuk melakukan analisis data, modeling, dan evaluasi.
+
+Catatan: Jika menggunakan collabs, pastikan dataset di unggah pada folder dan ganti instruksi load dataset disesuaikan dengan lokasi folder di drive. 
 
 #### **📊 C. Menjalankan Dashboard (Metabase)**
 
